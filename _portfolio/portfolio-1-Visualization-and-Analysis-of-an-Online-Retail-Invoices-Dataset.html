@@ -76,9 +76,9 @@ This includes basic information and numerical variables' statistics for the data
 
 <h2>Data Preprocessing</h2>
 Before performing visualization and analysis, this dataset needs to be preprocessed first. The preprocessing processes include:<br/>  
-1. Handling non-positive value in Quantity and Unitprice value<br/>
-2. Handling Description ambiguity for every StockCode<br/>
-3. Converting InvoiceDate and CustomerID data type<br/>
+1. Remove all the data that have non-positive value in Quantity or Unitprice value<br/>
+2. Standardize Description based on StockCode<br/>
+3. Convert InvoiceDate and CustomerID data type<br/>
 
 <h2>Visualization & Analysis </h2>
 Every analysis always starts with <b>question</b>. This analysis attempt to answer following basic questions: <br/>
@@ -109,7 +109,7 @@ TotalSales is the product of Quantity and UnitPrice, while DayofWeek represents 
 <br/><br/>
 
 <b>How is sales performance each month?</b> <br/>
-To answer this question, I plotted two 
+To answer this question, I created two graphs: one based on Quantity and another based on TotalSales.
 <p align="center">
   <img src="https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/8aadcfae-0437-408e-abf2-404812934b94">
 </p><br/>
@@ -117,7 +117,20 @@ To answer this question, I plotted two
   <img src="https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/d6610f86-49f2-405b-8933-71897b245d72">
 </p><br/>
 
+<b>Insights:</b><br/>
+The increase in sales is significantly noticeable starting from October and peaks in November.
+<br/><br/>
+
 <h3>Product Analysis</h3>
+We have observed an increase in sales from September to November, leading to a new question: <br/>
+<b>which products are highly popular during these months?</b>
 <p align="center">
-  <img src="https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/f30e3edd-924d-4007-9c45-e402955a469e">
-</p>
+  <img src="https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/49f0d496-837f-4dab-8f88-1ebb01f934f6">
+</p><br/>
+
+<b>Insights:</b><br/>
+Popcorn Holder is the top-selling product during Sept 2011 - Nov 2011. From this information we may know the behavior of the customer.
+We can deduce that towards the end of the year is when customers enjoy holidays by watching movies, if we associate popcorn with movies.<br/>
+Besides that, we can make further deductions through other products that occupy the second and subsequent positions.
+<br/><br/>
+
