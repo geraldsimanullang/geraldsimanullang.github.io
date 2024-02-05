@@ -5,11 +5,13 @@ collection: portfolio
 ---
 
 In this project I conducted <b>visualization</b> and <b>analysis</b> on an online retail transaction dataset. 
-<br/>
-The data I used is sourced from <b>UC Irvine Machine Learning Repository</b> and is referred to as the "<b>Online-retail</b>" dataset.<br/>  
-You can access this dataset here --> <a href="https://archive.ics.uci.edu/dataset/352/online+retail" target="_blank">Data Source</a><br/>  
-The analysis was performed using <b>Jupyter Notebook</b>. To view the complete code, please click here --> <a href="https://github.com/geraldsimanullang/Online-Retail-Invoices-Visualization-Analysis/blob/main/Online%20Retail%20Invoices%20Analysis.ipynb" target="_blank">Complete code</a>
 <br/><br/>
+
+The data I used is sourced from <b>UC Irvine Machine Learning Repository</b> and is referred to as the "<b>Online-retail</b>" dataset. You can access this dataset 
+<a href="https://archive.ics.uci.edu/dataset/352/online+retail" target="_blank">here</a><br/><br/>
+
+The analysis was performed using <b>Jupyter Notebook</b>. To view the complete code, please <a href="https://github.com/geraldsimanullang/Online-Retail-Invoices-Visualization-Analysis/blob/main/Online%20Retail%20Invoices%20Analysis.ipynb" target="_blank">click here</a><br/><br/>
+
 Now, let's begin.
 
 <h2>Dataset Information</h2>
@@ -22,8 +24,8 @@ First, let's take a look to the top 5 rows of the dataset:  <br/>
 These are description of the dataset's columns obtained from data source:  
 <table>
   <tr>
-    <th>Column</th>
-    <th>Description</th>
+    <th style="text-align: center">Column</th>
+    <th style="text-align: center">Description</th>
   </tr>
   <tr>
     <td><b>InvoiceNo</b></td>
@@ -57,27 +59,21 @@ These are description of the dataset's columns obtained from data source:
     <td><b>Country</b></td>
     <td>Country name, the name of the country where each customer resides.</td>
   </tr>
-</table>
+</table><br/>
 
-<br/>
-
-This is basic information about the dataset:  
-<details>
-  <summary>Show code</summary>
-
-  ```python
-  df.info()
-  ```
-  
-</details>
+This is basic information about the dataset:<br/>
 <p align="center">
   <img src="https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/bad6219a-5f96-4294-9c7e-22a95de0bcec">
-</p>  
-<br/>
+</p><br/><br/>
 
-**Dataset information summary:**  
-1. Dataset contains 541909 rows data with 8 columns
-2. **CustomerID** column has missing values
+There are three numeric variables in this dataset, let's take a look to the basic statistic of those variables:<br/>
+<p align="center">
+  <img src="https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/81bc24f1-b432-40b7-807d-1b01705c0d39">
+</p><br/><br/>
+
+<b>Dataset information summary:</b><br/>
+1. Dataset contains 541909 rows data with 8 columns<br/>
+2. <b>CustomerID</b> column has missing values<br/>
 3. 
 
 
@@ -85,14 +81,14 @@ This is basic information about the dataset:
 Before performing visualization and analysis, this dataset needs to be preprocessed first. The preprocessing processes include:  
 1. Handling non-positive value in Quantity and Unitprice value
 2. Handling Description ambiguity for every StockCode
-3. Converting InvoiceDate data type
+3. Converting InvoiceDate and CustomerID data type
 
 ## Visualization & Analysis  
 ### Sales Analysis
 **How is average gross sale by day of the week?**
-
-![average gross sales by day of the week](https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/70b37889-a3a6-4589-a4a0-745e20880601)
-
+<p align="center"
+  <img src="https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/70b37889-a3a6-4589-a4a0-745e20880601">
+</p>
 **How many items is sold each month?**
 ![items sold each month](https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/8aadcfae-0437-408e-abf2-404812934b94)
 
