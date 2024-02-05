@@ -4,5 +4,82 @@ excerpt: "Conducted an Exploratory Data Analysis through the visualization of sa
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
-![monthly gross sales](https://github.com/geraldsimanullang/geraldsimanullang.github.io/assets/154493278/606378d3-5258-4cdb-af8d-686902b2fbb2)
+# Visualization and Analysis of an Online Retail Invoices Dataset
+In this project I conducted **visualization** and **analysis** on an online retail transaction dataset. 
+
+The data I used is sourced from **UC Irvine Machine Learning Repository** and is referred to as the "**Online-retail**" dataset.  
+You can access this dataset here --> [Data Source](https://archive.ics.uci.edu/dataset/352/online+retail)  
+The analysis was performed using **Jupyter Notebook**. To view the complete code, please click here --> [Complete Code](https://github.com/geraldsimanullang/Online-Retail-Invoices-Visualization-Analysis/blob/main/Online%20Retail%20Invoices%20Analysis.ipynb)
+
+Now, let's begin.
+
+## Dataset Information
+
+First, let's take a look to the top 5 rows of the dataset:  
+
+<details> 
+  <summary>Show code</summary>  
+  
+  ```python
+  df.head()
+  ```    
+</details>
+
+<p align="center">
+  <img src="https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/ca9d675d-543b-45dc-9966-3e2fed351c92">
+</p>
+
+These are description of the dataset's columns obtained from data source:  
+| Column | Description |
+| --- | --- |
+| **InvoiceNo** | Invoice number, a 6-digit integral number uniquely assigned to each transaction.|
+| **StockCode** | Product (item), a 5-digit integral number uniquely assigned to each distinct product.|
+| **Description** | Product (item) name.|
+| **Quantity** | The quantities of each product (item) per transaction.  |
+| **InvoiceDate** | Invoice Date and time, the day and time when each transaction was generated.|
+| **UnitPrice** | Unit price, Product price per unit in sterling.|
+| **CustomerID** | Customer number, a 5-digit integral number uniquely assigned to each customer.|
+| **Country** | Country name, the name of the country where each customer resides.|  
+<br/>
+
+This is basic information about the dataset:  
+<details>
+  <summary>Show code</summary>
+
+  ```python
+  df.info()
+  ```
+  
+</details>
+<p align="center">
+  <img src="https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/bad6219a-5f96-4294-9c7e-22a95de0bcec"
+</p>  
+<br/>
+
+**Dataset information summary:**  
+1. Dataset contains 541909 rows data with 8 columns
+2. **CustomerID** column has missing values
+3. 
+
+
+## Data Preprocessing
+Before performing visualization and analysis, this dataset needs to be preprocessed first. The preprocessing processes include:  
+1. Handling non-positive value in Quantity and Unitprice value
+2. Handling Description ambiguity for every StockCode
+3. Converting InvoiceDate data type
+
+## Visualization & Analysis  
+### Sales Analysis
+**How is average gross sale by day of the week?**
+
+![average gross sales by day of the week](https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/70b37889-a3a6-4589-a4a0-745e20880601)
+
+**How many items is sold each month?**
+![items sold each month](https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/8aadcfae-0437-408e-abf2-404812934b94)
+
+
+**Then how is monthly gross sales?**
+![monthly gross sales](https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/d6610f86-49f2-405b-8933-71897b245d72)
+
+### Product Analysis
+![top product on sept to nov](https://github.com/geraldsimanullang/Visualization-and-analysis-of-an-online-retail-invoices-dataset/assets/154493278/f30e3edd-924d-4007-9c45-e402955a469e)
