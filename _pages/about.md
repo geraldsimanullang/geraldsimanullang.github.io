@@ -8,3 +8,4 @@ redirect_from:
   - /about.html
 ---
 
+👨🏻‍🎓 Graduated with a **Master's degree** in **Industrial Engineering**, specializing in **Business Analytics**, from Universitas Atma Jaya Yogyakarta
