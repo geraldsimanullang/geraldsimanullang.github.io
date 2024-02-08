@@ -17,8 +17,8 @@ redirect_from:
 
 ## Portfolio Shortcut  
 * **Data Analysis and Visualization**  
-[Data Analysis and Visualization of Pizza Sales (SQL+PowerBI)](https://geraldsimanullang.github.io/portfolio/portfolio-3-Data-Analysis-and-Visualization-of-Pizza-Sales-SQL-PowerBI/)  
-[Visualization and Analysis of an Online Retail Invoices Dataset](https://geraldsimanullang.github.io/portfolio/portfolio-1-Visualization-and-Analysis-of-an-Online-Retail-Invoices-Dataset/)
+(SQL+PowerBI) Data Analysis and Visualization of Pizza Sales [[View Project](https://geraldsimanullang.github.io/portfolio/portfolio-3-Data-Analysis-and-Visualization-of-Pizza-Sales-SQL-PowerBI/)]  
+(Python) Visualization and Analysis of an Online Retail Invoices Dataset [[View project](https://geraldsimanullang.github.io/portfolio/portfolio-1-Visualization-and-Analysis-of-an-Online-Retail-Invoices-Dataset/)]
 
 * **Machine Learning**  
-[Image Classification of Rock-paper-scissors Hand-shaped Pictures](https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/)
+Image Classification of Rock-paper-scissors Hand-shaped Pictures[[View project](https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/)]
