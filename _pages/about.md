@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-## 📝 Portfolio  
+## Portfolio  
 ### Data Analysis and Visualization
 *  [**Data Analysis and Visualization of Pizza Sales**](https://geraldsimanullang.github.io/portfolio/portfolio-3-Data-Analysis-and-Visualization-of-Pizza-Sales-SQL-PowerBI/)  
   **Tools**: SQL Server Management Studio (SMSS) + Power BI  
@@ -27,7 +27,7 @@ redirect_from:
   Built a **Convolutional Neural Network (CNN)** machine learning model with an **accuracy >96%** for classifying images of rock-paper-scissors hand-shaped pictures using the **TensorFlow and Keras** libraries
 <br/>
 
-## 👨🏻‍🎓 Education 
+## Education 
 * Master's degree in Industrial Engineering: **__Business Analytics__**  
   Universitas Atma Jaya Yogyakarta  
   GPA: 3.75
