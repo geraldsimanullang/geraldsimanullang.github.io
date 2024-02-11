@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I love working with data. I love solving problems. <br/><br/>
-
 ## 📝 Portfolio  
 ### Data Analysis and Visualization
 *  [**Data Analysis and Visualization of Pizza Sales**](https://geraldsimanullang.github.io/portfolio/portfolio-3-Data-Analysis-and-Visualization-of-Pizza-Sales-SQL-PowerBI/)  
