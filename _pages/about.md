@@ -1,13 +1,13 @@
 ---
 permalink: /
 title: "Hi, I'm Gerald 👋🏻  "
-excerpt: ""
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-<br/>
+
 I love working with data. I love solving problems. <br/><br/>
 
 ## 📝 Portfolio  
