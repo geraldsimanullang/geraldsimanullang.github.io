@@ -24,10 +24,10 @@ redirect_from:
 * [**Image Classification of Rock-paper-scissors Hand-shaped Pictures**](https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/)  
   **Tool**: Jupyter Notebook  
   **Description**:  
-  Built a **Convolutional Neural Network (CNN)** machine learning model with an **accuracy >96%** for classifying images of rock-paper-scissors hand-shaped pictures using the **TensorFlow and Keras** libraries
-<br/>
-
-## Education 
+  Built a **Convolutional Neural Network (CNN)** machine learning model with an **accuracy >96%** for classifying images of rock-paper-scissors hand-shaped pictures using the **TensorFlow and Keras** libraries  
+  
+  
+## Education
 * Master's degree in Industrial Engineering: **__Business Analytics__**  
   Universitas Atma Jaya Yogyakarta  
   GPA: 3.75
@@ -35,4 +35,3 @@ redirect_from:
 * Bachelor's degree in Industrial Engineering  
   Universitas Atma Jaya Yogyakarta  
   GPA: 3.33
-<br/><br/>
