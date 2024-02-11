@@ -1,7 +1,6 @@
 ---
 permalink: /
-title: "Gerald's Homepage"
-excerpt: ""
+title: "Gerald Simanullang"
 author_profile: true
 redirect_from: 
   - /about/
