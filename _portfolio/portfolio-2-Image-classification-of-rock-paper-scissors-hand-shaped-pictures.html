@@ -57,7 +57,7 @@ The processes in this data preparation stage use the os, zipfile, and pathlib li
 <b>The final result</b> of this process is a dataset containing <b>2188 images.</b><br/>
 
 <h2>Data preprocessing</h2>
-The next stage is the data preprocessing process. This stage includes <b>image augmentatio</b>n and 
+The next stage is the data preprocessing process. This stage includes <b>image augmentation</b> and 
 <b>dividing the dataset</b> into test and validation datasets. 
 These processes utilize the TensorFlow library, and then the Numpy library is employed to calculate the number of 
 data for each criterion in the train dataset. Number of data per criteria in training dataset are as follows: 
@@ -70,4 +70,45 @@ The results are as follows: <br/>
     <img src="https://github.com/geraldsimanullang/Image-classification-of-rock-paper-scissors-hand-shaped-pictures/assets/154493278/6f52c521-d6a4-4d68-82bd-2e5be139deaa">
 </p><br/>
 
-<h3>Sequential Modelling</h3>
+<h2>Sequential Modelling</h2>
+This is a crucial step, building the model of the neural network that we will use. 
+Here is a code snippet to create the model I used with Python. <br/>
+
+<script src="https://gist.github.com/geraldsimanullang/9b258bdd335e0ef2000facf4db29889e.js"></script> <br/>
+
+<p>In this segment, I'm constructing a Convolutional Neural Network (CNN) using TensorFlow and Keras for image classification. The model is sequential, meaning each layer flows in sequence.</p>
+
+<ol>
+    <li>
+        <h3>Input Layer:</h3>
+        <ul>
+            <li>The first layer is a Conv2D layer with 32 filters of size (3, 3), utilizing the ReLU activation function. It takes input images of shape (150, 150, 3) representing height, width, and channels.</li>
+            <li>A MaxPooling2D layer with a pool size of (2, 2) follows, reducing spatial dimensions.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>Convolutional Layers with Pooling:</h3>
+        <ul>
+            <li>The pattern repeats with additional Conv2D and MaxPooling2D layers, gradually increasing the number of filters to 64, 128, and 256, respectively.</li>
+            <li>Each convolutional layer uses the ReLU activation function to introduce non-linearity, and MaxPooling2D reduces spatial dimensions.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>Flatten Layer:</h3>
+        <ul>
+            <li>After the convolutional layers, a Flatten layer is applied to convert the multi-dimensional feature maps into a one-dimensional array.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>Dense Layers:</h3>
+        <ul>
+            <li>Two Dense (fully connected) layers follow, with 512 neurons each in the first layer and 3 neurons in the output layer.</li>
+            <li>The ReLU activation is applied in the first Dense layer, while the output layer uses the softmax activation for multi-class classification.</li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Compiling the Model:</h2>
+
+<p>The model is then compiled using the Adam optimizer, categorical cross-entropy loss function (suitable for multi-class classification), and accuracy as the evaluation metric.</p>
+
