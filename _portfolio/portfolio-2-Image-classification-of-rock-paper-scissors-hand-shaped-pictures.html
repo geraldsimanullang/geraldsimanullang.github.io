@@ -50,9 +50,24 @@ Now, let's get into the project! 🚀<br/>
 <h2>Data preparation</h2>
 The first stage is data preparation. In this stage, the initial step involves downloading and importing data into Google Colab. 
 The dataset used must be the one provided by Dicoding. To view the dataset, please click 
-<a href"https://github.com/dicodingacademy/assets/releases/download/release/rockpaperscissors.zip" target="_blank">here</a>.<br/>
+<a href"https://github.com/dicodingacademy/assets/releases/download/release/rockpaperscissors.zip" target="_blank">here</a>.<br/><br/>
 
 The provided dataset is in .zip format. After downloading, the next step is to extract the zip file. 
 The processes in this data preparation stage use the os, zipfile, and pathlib libraries. 
-<b>The final result of this process is a dataset containing 2188 images.</b>
+<b>The final result</b> of this process is a dataset containing <b>2188 images.</b><br/>
 
+<h2>Data preprocessing</h2>
+The next stage is the data preprocessing process. This stage includes <b>image augmentatio</b>n and 
+<b>dividing the dataset</b> into test and validation datasets. 
+These processes utilize the TensorFlow library, and then the Numpy library is employed to calculate the number of 
+data for each criterion in the train dataset. Number of data per criteria in training dataset are as follows: 
+'paper': 428, 'rock': 436, 'scissors': 450
+
+<h2>Training data sample visualization</h2>
+This stage is optional. Here, I perform visualization to observe 15 sample images from the training dataset using the Matplotlib library.
+The results are as follows: <br/>
+<p align="center">
+    <img src="https://github.com/geraldsimanullang/Image-classification-of-rock-paper-scissors-hand-shaped-pictures/assets/154493278/6f52c521-d6a4-4d68-82bd-2e5be139deaa">
+</p><br/>
+
+<h3>Sequential Modelling</h3>
