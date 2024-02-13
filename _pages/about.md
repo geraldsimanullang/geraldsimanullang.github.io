@@ -21,7 +21,7 @@ redirect_from:
   
 ### Machine Learning
 * [**Image Classification of Rock-paper-scissors Hand-shaped Pictures**](https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/)  
-  **Tool**: Jupyter Notebook  
+  **Tool**: Google Colab  
   **Description**:  
   Built a **Convolutional Neural Network (CNN)** machine learning model with an **accuracy >96%** for classifying images of rock-paper-scissors hand-shaped pictures using the **TensorFlow and Keras** libraries  
   
