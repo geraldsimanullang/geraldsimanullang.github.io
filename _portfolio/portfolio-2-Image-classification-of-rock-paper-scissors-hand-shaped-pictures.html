@@ -71,12 +71,11 @@ The results are as follows: <br/>
 </p><br/>
 
 <h2>Sequential Modelling</h2>
-This is a crucial step, building the model of the neural network that we will use. 
-Here is a code snippet to create the model I used with Python. <br/>
+<p>In this segment, I'm constructing a Convolutional Neural Network (CNN) using TensorFlow and Keras for image classification. The model is sequential, meaning each layer flows in sequence.</p>
+
 
 <script src="https://gist.github.com/geraldsimanullang/9b258bdd335e0ef2000facf4db29889e.js"></script> <br/>
 
-<p>In this segment, I'm constructing a Convolutional Neural Network (CNN) using TensorFlow and Keras for image classification. The model is sequential, meaning each layer flows in sequence.</p>
 
 <ol>
     <li>
@@ -108,7 +107,33 @@ Here is a code snippet to create the model I used with Python. <br/>
     </li>
 </ol>
 
-<h2>Compiling the Model:</h2>
-
 <p>The model is then compiled using the Adam optimizer, categorical cross-entropy loss function (suitable for multi-class classification), and accuracy as the evaluation metric.</p>
 
+<h2>Creating Customized Callbacks</h2>
+Next, after building the model, I customized callbacks. The callbacks I used are the <b>model checkpoint</b>, which saves the model's weights during training, and <b>early stopping</b>, 
+which stops training if the accuracy and validation accuracy exceed 96 percent. Here is the code for creating the callbacks that I performed.
+<br/>
+<script src="https://gist.github.com/geraldsimanullang/5ab868dbaae31c3b06a5e316ad6226c7.js"></script> <br/>
+
+<h2>Train the model</h2>
+After all the preparations are complete, it's time to train the model. The model is trained with parameters as shown in the following code.<br/>
+<script src="https://gist.github.com/geraldsimanullang/356f2327d52deda83d3e5a3cdac0dd1d.js"></script> <br/>
+
+Training result: <br/>
+I set the number of epochs to 20, indicating that the model will be trained 20 times. 
+However, after the 10th training epoch, both accuracy and validation accuracy have surpassed 96 percent. 
+Therefore, with the early stopping callback we prepared earlier, the training is halted at the 10th epoch.
+Here's the visualization of training process:<br/>
+
+<p align="center">
+    <img src="https://github.com/geraldsimanullang/Image-classification-of-rock-paper-scissors-hand-shaped-pictures/assets/154493278/60a2099e-a207-4ad1-8fe6-dd6f0f8e98cc">
+</p>
+
+<h2>Predict new data</h2>
+Finally, we will predict new data, which is a photo of my own hand that will be uploaded and then predicted. 
+The code and its results are as follows. <br/>
+
+<script src="https://gist.github.com/geraldsimanullang/bcdf0bd7f678d26e57332b68a2efe767.js"></script> <br/>
+<p>
+    <img src="https://github.com/geraldsimanullang/Image-classification-of-rock-paper-scissors-hand-shaped-pictures/assets/154493278/a35b1dfd-1203-4b0e-80aa-8c756e401f84">
+</p>
