@@ -31,7 +31,7 @@ Develop models for predictive analysis, classification, and clustering across di
 
 <details><summary><b>See Projects</b></summary>
   <ul>
-    <li><a href"https://geraldsimanullang.github.io/portfolio/portfolio-4-Bengaluru-House-Price-Prediction/" target="_blank">Bengaluru House Price Prediction</a><br/>
+    <li><a href="https://geraldsimanullang.github.io/portfolio/portfolio-4-Bengaluru-House-Price-Prediction/" target="_blank">Bengaluru House Price Prediction</a><br/>
       Tool: Jupyter Notebook <br/>
       Constructed models to predict house prices in Bengaluru, India. After data cleaning, method selection utilized GridSearchCV to evaluate regression performance with linear regression, lasso, and decision tree regressor. In this case, the optimal method was linear regression with a score of 81.9 out of 100.
     </li>
