@@ -9,13 +9,12 @@ redirect_from:
 Hi there, I'm Gerald! 👋🏻 Welcome to my personal portfolio page. 🙏🏻
 I'm a master's degree graduate in Industrial Engineering, specializing in Business Analytics from Universitas Atma Jaya Yogyakarta. Below are my portfolios divided into two categories.<br/>
 
-* The first category, named 'Data Analysis and Visualization,' consists of projects involving data analysis with Python programming or SQL and visualization with Python programming (Matplotlib+Seaborn) or Power BI.
-* The second category, named 'Machine Learning,' encompasses projects that include machine learning algorithms, all of which were executed with Python programming. <br/>
-
 <h3>Data Analysis and Visualization</h3>
-Projects involving data analysis and visualization with Python programming, SQL and/or Power BI.
+<p><img src="https://github.com/geraldsimanullang/Bengaluru-House-Price-Prediction/assets/154493278/748f3f86-a1df-41de-8aa0-6880a7fe4fbe" alt="" style="display:inline-block; padding-right:10px; width:42px; height:42px;">Projects involving data analysis and visualization with Python programming, SQL and/or Power BI.</p>
 
-<details><summary>See Projects</summary> 
+
+
+<details><summary><b>See Projects</b></summary> 
 <ul>
   <li><a href="https://geraldsimanullang.github.io/portfolio/portfolio-3-Data-Analysis-and-Visualization-of-Pizza-Sales-SQL-PowerBI/" target="_blank">Data Analysis and Visualization of Pizza Sales</a><br/>
     Tools: SQL Server Management Studio (SMSS) + Power BI <br/>
@@ -31,8 +30,8 @@ Projects involving data analysis and visualization with Python programming, SQL 
 
 <h3>Machine Learning</h3>
 Projects that include machine learning algorithms, all of which were executed with Python programming.
-<details>  
-<summary>See Projects</summary>
+
+<details><summary><b>See Projects</b></summary>
   <ul>
     <li></li>
     <li><a href="https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/" target="_blank">Image Classification of Rock-paper-scissors Hand-shaped Pictures</a><br/>
