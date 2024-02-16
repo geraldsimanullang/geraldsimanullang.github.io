@@ -12,12 +12,14 @@ I'm a master's degree graduate in Industrial Engineering, specializing in Busine
 * The first category, named 'Data Analysis and Visualization,' consists of projects involving data analysis with Python programming or SQL and visualization with Python programming (Matplotlib+Seaborn) or Power BI.
 * The second category, named 'Machine Learning,' encompasses projects that include machine learning algorithms, all of which were executed with Python programming.
 
-<details>
-<summary>Data Analysis and Visualization</summary> 
+<details><summary>Data Analysis and Visualization</summary> 
 <ul>
   <li><a href="https://geraldsimanullang.github.io/portfolio/portfolio-3-Data-Analysis-and-Visualization-of-Pizza-Sales-SQL-PowerBI/" target="_blank">Data Analysis and Visualization of Pizza Sales</a></li>
-  
-  <li><a href="(https://geraldsimanullang.github.io/portfolio/portfolio-1-Visualization-and-Analysis-of-an-Online-Retail-Invoices-Dataset/" target="_blank">Visualization and Analysis of an Online Retail Invoices Dataset</a></li>
+  <details><summary>Description</summary>
+    Tools: SQL Server Management Studio (SMSS) + Power BI <br/><br/>
+    SMSS was utilized for data storage and analysis to accurately determine the values related to the Pizza Sales Dataset problem statement. Subsequently, Power BI was employed to construct a visualization model.
+  </details>
+  <li><a href="https://geraldsimanullang.github.io/portfolio/portfolio-1-Visualization-and-Analysis-of-an-Online-Retail-Invoices-Dataset/" target="_blank">Visualization and Analysis of an Online Retail Invoices Dataset</a></li>
 </ul>
 
 
