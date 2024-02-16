@@ -27,7 +27,7 @@ Projects involving data analysis and visualization with Python programming, SQL 
   Conducted Exploratory Data Analysis by visualizing sales data to extract insights into store performance, identify top-selling     products, and understand customer segmentation. This project was implemented using Python programming and involved the use of several libraries, including Pandas, NumPy, Matplotlib, and Seaborn.
   </li>
 </ul>
-</details><br/>
+</details>
 
 <h3>Machine Learning</h3>
 Projects that include machine learning algorithms, all of which were executed with Python programming.
@@ -36,8 +36,7 @@ Projects that include machine learning algorithms, all of which were executed wi
   <ul>
     <li></li>
     <li><a href="https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/" target="_blank">Image Classification of Rock-paper-scissors Hand-shaped Pictures</a><br/>
-    Tool: Google Colab  
-    Description:  
+    Tool: Google Colab<br/>
     Built a Convolutional Neural Network (CNN) machine learning model with an accuracy >96% for classifying images of rock-paper-scissors hand-shaped pictures using the TensorFlow and Keras libraries      
     </li>
   </ul>
