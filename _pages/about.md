@@ -13,7 +13,18 @@ I'm a master's degree graduate in Industrial Engineering, specializing in Busine
 * The second category, named 'Machine Learning,' encompasses projects that include machine learning algorithms, all of which were executed with Python programming.
 
 <details>
-<summar>Data Analysis and Visualization</summar> 
+<summary>Data Analysis and Visualization</summary> 
+<ul>
+  <li><a href="https://geraldsimanullang.github.io/portfolio/portfolio-3-Data-Analysis-and-Visualization-of-Pizza-Sales-SQL-PowerBI/" target="_blank">Data Analysis and Visualization of Pizza Sales</a></li>
+  
+  <li><a href="(https://geraldsimanullang.github.io/portfolio/portfolio-1-Visualization-and-Analysis-of-an-Online-Retail-Invoices-Dataset/" target="_blank">Visualization and Analysis of an Online Retail Invoices Dataset</a></li>
+</ul>
+
+
+<br/><br/>
+
+
+  
 *  [**Data Analysis and Visualization of Pizza Sales**](https://geraldsimanullang.github.io/portfolio/portfolio-3-Data-Analysis-and-Visualization-of-Pizza-Sales-SQL-PowerBI/)  
   **Tools**: SQL Server Management Studio (SMSS) + Power BI  
   **Description**:  
