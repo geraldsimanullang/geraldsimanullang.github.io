@@ -10,7 +10,10 @@ Hi there, I'm Gerald! 👋🏻 Welcome to my personal portfolio page. 🙏🏻
 I'm a master's degree graduate in Industrial Engineering, specializing in Business Analytics from Universitas Atma Jaya Yogyakarta. Below are my portfolios divided into two categories.<br/>
 
 <h3>Data Analysis and Visualization</h3>
-<p><img src="https://github.com/geraldsimanullang/Bengaluru-House-Price-Prediction/assets/154493278/748f3f86-a1df-41de-8aa0-6880a7fe4fbe" alt="" style="display:inline-block; padding-right:10px; width:42px; height:42px;">Projects involving data analysis and visualization with Python programming, SQL and/or Power BI.</p>
+<p>
+<img src="https://github.com/geraldsimanullang/Bengaluru-House-Price-Prediction/assets/154493278/748f3f86-a1df-41de-8aa0-6880a7fe4fbe" alt="" style="float:left;width:100px;height:56px;">
+Projects involving data analysis and visualization with Python programming, SQL and/or Power BI.  
+</p>
 
 
 
