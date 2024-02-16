@@ -13,7 +13,7 @@ I'm a master's degree graduate in Industrial Engineering, specializing in Busine
 * The second category, named 'Machine Learning,' encompasses projects that include machine learning algorithms, all of which were executed with Python programming. <br/>
 
 <h3>Data Analysis and Visualization</h3>
-consists of projects involving data analysis with Python programming or SQL and visualization with Python programming (Matplotlib+Seaborn) or Power BI.
+Projects involving data analysis and visualization with Python programming, SQL and/or Power BI.
 
 <details><summary>See Projects</summary> 
 <ul>
@@ -27,12 +27,18 @@ consists of projects involving data analysis with Python programming or SQL and 
   Conducted Exploratory Data Analysis by visualizing sales data to extract insights into store performance, identify top-selling     products, and understand customer segmentation. This project was implemented using Python programming and involved the use of several libraries, including Pandas, NumPy, Matplotlib, and Seaborn.
   </li>
 </ul>
-</details>
+</details><br/>
 
+<h3>Machine Learning</h3>
+Projects that include machine learning algorithms, all of which were executed with Python programming.
 <details>  
-<summary> Machine Learning </summary>
-* [**Image Classification of Rock-paper-scissors Hand-shaped Pictures**](https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/)  
-  **Tool**: Google Colab  
-  **Description**:  
-  Built a **Convolutional Neural Network (CNN)** machine learning model with an **accuracy >96%** for classifying images of rock-paper-scissors hand-shaped pictures using the **TensorFlow and Keras** libraries  
+<summary>See Projects</summary>
+  <ul>
+    <li></li>
+    <li><a href="https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/" target="_blank">Image Classification of Rock-paper-scissors Hand-shaped Pictures</a><br/>
+    Tool: Google Colab  
+    Description:  
+    Built a Convolutional Neural Network (CNN) machine learning model with an accuracy >96% for classifying images of rock-paper-scissors hand-shaped pictures using the TensorFlow and Keras libraries      
+    </li>
+  </ul>
 </details>
