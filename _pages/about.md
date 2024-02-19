@@ -8,7 +8,7 @@ redirect_from:
 ---
 Hi there, I'm Gerald! 👋🏻 Welcome to my personal portfolio page. 🙏🏻  
 Below are the projects I've done:
-<br/>
+<br/><br/>
 [**Image Classification of Rock-paper-scissors Hand-gesture Pictures**](https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/) (Python)
 <p align="center">
   <img src="https://github.com/geraldsimanullang/Bengaluru-House-Price-Prediction/assets/154493278/1c434906-2074-4739-aaac-92c3405862ba">
@@ -17,7 +17,7 @@ Below are the projects I've done:
 * Achieved accuracy and validation accuracy results exceeding 96%
 * Utilized image augmentation techniques and callbacks, resulting in accuracy and validation accuracy surpassing **96%**
 * Received a perfect score of 5 out of 5 stars from the reviewer. This is the final project for the machine learning course from Dicoding Indonesia.
-<p align="center"><b>***</b></p>> <br/>
+<p align="center"><b>***</b></p> <br/>
 
 [**Visualization and Analysis of an Online Retail Invoices Dataset**](https://geraldsimanullang.github.io/portfolio/portfolio-1-Visualization-and-Analysis-of-an-Online-Retail-Invoices-Dataset/) (Python)
 <p align="center">
@@ -28,4 +28,4 @@ Below are the projects I've done:
 * Performed visualization of monthly and daily sales trends, top selling products, and top loyal customers
 * Utilized Matplotlib and Seaborn libraries for visualizing monthly and daily sales trends, top-selling products, and top loyal customers
 * Extracted insights and provided recommendations from the visualization results
-<p align="center"><b>***</b></p>>
+<p align="center"><b>***</b></p>
