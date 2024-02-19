@@ -7,8 +7,12 @@ redirect_from:
   - /about.html
 ---
 Hi there, I'm Gerald! 👋🏻 Welcome to my personal portfolio page. 🙏🏻  
-Below are the projects I've done:  
-[**Image Classification of Rock-paper-scissors Hand-shaped Pictures**](https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/) (Python)
+Below are the projects I've done:
+<br/>
+[**Image Classification of Rock-paper-scissors Hand-gesture Pictures**](https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/) (Python)
+<p align="center">
+  <img src="https://github.com/geraldsimanullang/Bengaluru-House-Price-Prediction/assets/154493278/1c434906-2074-4739-aaac-92c3405862ba">
+</p>
 * Built a CNN model using TensorFlow and Keras libraries to classify hand gesture photos as either forming a rock, paper, or scissors
 * Achieved accuracy and validation accuracy results exceeding 96%
 * Utilized image augmentation techniques and callbacks, resulting in accuracy and validation accuracy surpassing **96%**
