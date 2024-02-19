@@ -11,13 +11,13 @@ Below are the projects I've done:
 <br/><br/>
 [**Image Classification of Rock-paper-scissors Hand-gesture Pictures**](https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/) (Python)
 <p align="center">
-  <img src="https://github.com/geraldsimanullang/Bengaluru-House-Price-Prediction/assets/154493278/1c434906-2074-4739-aaac-92c3405862ba">
+  <img src="https://github.com/geraldsimanullang/Bengaluru-House-Price-Prediction/assets/154493278/e2c800b5-e602-46e9-9961-f9de3c540f8a">
 </p>
 * Built a CNN model using TensorFlow and Keras libraries to classify hand gesture photos as either forming a rock, paper, or scissors
 * Achieved accuracy and validation accuracy results exceeding 96%
 * Utilized image augmentation techniques and callbacks, resulting in accuracy and validation accuracy surpassing **96%**
 * Received a perfect score of 5 out of 5 stars from the reviewer. This is the final project for the machine learning course from Dicoding Indonesia.
-<p align="center"><b>***</b></p> <br/>
+<p align="center"><b>***</b></p>
 
 [**Visualization and Analysis of an Online Retail Invoices Dataset**](https://geraldsimanullang.github.io/portfolio/portfolio-1-Visualization-and-Analysis-of-an-Online-Retail-Invoices-Dataset/) (Python)
 <p align="center">
