@@ -11,7 +11,7 @@ Below are the projects I've done:
 <br/><br/>
 
 **Project #4**  
-[**House Price Prediction in Bengaluru**](https://github.com/geraldsimanullang/Bengaluru-House-Price-Prediction/assets/154493278/8659ecf4-38ce-421e-a016-33aebda5d62f) (Python)
+[**House Price Prediction in Bengaluru**](https://geraldsimanullang.github.io/portfolio/project-4) (Python)
 <p align="center">
   <img src="https://github.com/geraldsimanullang/Bengaluru-House-Price-Prediction/assets/154493278/8659ecf4-38ce-421e-a016-33aebda5d62f">
 </p>
@@ -21,7 +21,7 @@ Below are the projects I've done:
 <p align="center"><b>***</b></p>
 
 **Project #2**  
-[**Image Classification of Rock-paper-scissors Hand-gesture Pictures**](https://geraldsimanullang.github.io/portfolio/portfolio-2-Image-classification-of-rock-paper-scissors-hand-shaped-pictures/) (Python)
+[**Image Classification of Rock-paper-scissors Hand-gesture Pictures**](https://geraldsimanullang.github.io/portfolio/project-2) (Python)
 <p align="center">
   <img src="https://github.com/geraldsimanullang/Bengaluru-House-Price-Prediction/assets/154493278/e2c800b5-e602-46e9-9961-f9de3c540f8a">
 </p>
@@ -32,7 +32,7 @@ Below are the projects I've done:
 <p align="center"><b>***</b></p>
 
 **Project #1**  
-[**Visualization and Analysis of an Online Retail Invoices Dataset**](https://geraldsimanullang.github.io/portfolio/portfolio-1-Visualization-and-Analysis-of-an-Online-Retail-Invoices-Dataset/) (Python)
+[**Visualization and Analysis of an Online Retail Invoices Dataset**](project-1) (Python)
 <p align="center">
   <img src="https://github.com/geraldsimanullang/Bengaluru-House-Price-Prediction/assets/154493278/c0bb8eec-3c71-4f27-a557-2910b8255b52">
 </p>
